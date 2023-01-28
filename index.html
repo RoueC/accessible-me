@@ -33,7 +33,7 @@
           </ul>
         </nav>
       </div>     
-          <img src="https://placekitten.com/1200/900" class="banner" alt="kitten with gray and white fur">
+          <img src="https://placekitten.com/1200/900" class="banner" alt="kitten with gray and white fur amd gray eyes">
       </div>
     </header>
     
@@ -48,22 +48,24 @@
       <div class="owner">
         <aside role="complementary">
         <h2>Meet the owner</h2>
-          <ul>
-            <li>Name: John Doe</li>
-            <li>Title: CEO</li>
-            <li>Email: johnjoe@jambox.ca</li>
-            <li>Phone: 613-000-0000</li>
+          <ul itemscope itemtype="https://schema.org/Person">
+            <li itemprop="name">Name: John Doe</li>
+            <li itemprop="jobtitle">Title: CEO</li>
+            <li itemprop="email">Email: johnjoe@jambox.ca</li>
+            <li itemprop="phone">Phone: 613-000-0000</li>
           </ul>
         </aside>
 
         <aside role="complementary">
         <h2>Address</h2>
-        <p>
-          Jambox Studios
-          123 Guitar Road,
-          Musicville, Danceistan
-          B3T 0L0
-        </p>
+        <div itemscope itemtype="https://schema.org/LocalBusiness">
+            <span itemprop="name">Jambox Studios</span>
+        </div>
+        <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="streetAddress">123 Guitar Road,</span>
+            <span itemprop="addressLocality">Musicville, Danceistan</span>
+            <span itemprop="addressRegion">B3T 0L0</span>
+        </div>
         </aside>
       </div>
 

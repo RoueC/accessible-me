@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: rgb(223, 220, 220);
+  background-color: rgb(228, 222, 214);
   margin: 0;
   padding: 0;
 }
@@ -43,11 +43,12 @@ h6 {
 }
 
 a:focus{
-  outline: 3px solid darkolivegreen;
+  outline: 3px solid olive;
 }
 
 img {
   width: 100%;
+  padding-top: 1rem;
 }
 
 .main-nav ul {
@@ -55,7 +56,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: .5rem 0;
+  background-color: rgb(218, 200, 177);
 }
 
 .main-nav ul li {
@@ -71,9 +73,11 @@ img {
 }
 
 .main-nav ul li a:hover{
-  color: rgb(198, 129, 2);
+  color: rgb(166, 28, 28);
 
 }
+
+
 
 form input,
 form textarea {
