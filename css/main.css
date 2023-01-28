@@ -12,6 +12,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+ 
 }
 
 .container {
@@ -32,8 +33,8 @@ h6 {
   font-weight: bold;
   position: absolute;
   top: -4em;
-  background-color: darkolivegreen;
-  color:rgb(245, 183, 69);
+  background-color: rgb(218, 200, 177);
+  color:black;
   padding: .5em 1.5em;
   
 }
@@ -47,8 +48,10 @@ a:focus{
 }
 
 img {
-  width: 100%;
-  padding-top: 1rem;
+  width: 75%;
+  height: 500px;
+  padding: 1rem 10rem ;
+  
 }
 
 .main-nav ul {
@@ -77,8 +80,6 @@ img {
 
 }
 
-
-
 form input,
 form textarea {
   display: block;
@@ -96,17 +97,45 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid black;
-  padding: 1rem;
+  border: 1px solid black;
+  padding: .7rem 1rem;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+form button:hover{
+  color: rgb(166, 28, 28);
+
 }
 
 .top {
   text-decoration: none;
-  padding-top: 1rem;
+  padding-top: 5rem;
 
 }
 
 .site-footer {
   padding: 2rem 0;
+  
 }
+
+.otherinfo {
+  display:flex;
+  flex-direction: row-reverse;
+  padding: 0 3rem 2rem 3rem;
+  background-color: rgb(218, 200, 177)
+
+}
+
+.contact-section {
+  flex: 60%;
+  padding-right: 10rem;
+  
+}
+
+.owner {
+  flex: 40%;
+  padding-top: 5rem;
+
+}
+

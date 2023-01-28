@@ -20,7 +20,7 @@
       <a href="#main">Skip to main content</a>
     </div>
     
-    <header role="banner">
+  <header role="banner">
       <div class="site-header">
       <h1 role="heading">Jam Box Studios</h1>
       <div class="main-nav" id="nav">
@@ -32,19 +32,21 @@
             <li><a href="#">Studio</a></li>
           </ul>
         </nav>
-      </div>     
-          <img src="https://placekitten.com/1200/900" class="banner" alt="kitten with gray and white fur amd gray eyes">
       </div>
-    </header>
+        <div role="img" aria-label="kitten with gray and white fur amd gray eyes">
+          <img src="https://placekitten.com/1200/900" class="banner" alt="kitten with gray and white fur amd gray eyes">
+        </div> 
+      </div>
+  </header>
     
   <main role="main"> 
     <div class="main-content" id="main">
-      <section>
+    
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      </section>  
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p> 
     
+      <div class="otherinfo">
       <div class="owner">
         <aside role="complementary">
         <h2>Meet the owner</h2>
@@ -82,18 +84,19 @@
           <label for="subject">Subject</label>
           <input type="text" id="subject" name="subject" placeholder="Subject">
 
-          <b>Your Message</b>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          <label for="textbox">Your Message</label>
+          <textarea id="textbox"></textarea>
+          
+          <button type="submit" role="button">Send</button>
         </form>
         </section>
       </div>
+    </div>
 
       <div class="top">
         <a href="#top">Back to Top</a>
       </div>
         
-
     </div>
   </main>
 
