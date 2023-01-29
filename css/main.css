@@ -77,7 +77,6 @@ img {
 
 .main-nav ul li a:hover{
   color: rgb(166, 28, 28);
-
 }
 
 form input,
@@ -105,18 +104,6 @@ form button {
 
 form button:hover{
   color: rgb(166, 28, 28);
-
-}
-
-.top {
-  text-decoration: none;
-  padding-top: 5rem;
-
-}
-
-.site-footer {
-  padding: 2rem 0;
-  
 }
 
 .otherinfo {
@@ -124,18 +111,27 @@ form button:hover{
   flex-direction: row-reverse;
   padding: 0 3rem 1.5rem 3rem;
   background-color: rgb(220, 210, 195)
-
 }
 
 .contact-section {
   flex: 60%;
-  padding-right: 10rem;
-  
+  padding-right: 10rem;  
 }
 
 .owner {
   flex: 40%;
-  padding-top: 5rem;
-
+  padding-top: 4rem;
 }
 
+.address {
+  padding-top: 2rem;
+}
+
+.top {
+  text-decoration: none;
+  padding-top: 5rem;
+}
+
+.site-footer {
+  padding: 2rem 0;  
+}
