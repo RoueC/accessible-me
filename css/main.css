@@ -122,8 +122,8 @@ form button:hover{
 .otherinfo {
   display:flex;
   flex-direction: row-reverse;
-  padding: 0 3rem 2rem 3rem;
-  background-color: rgb(218, 200, 177)
+  padding: 0 3rem 1.5rem 3rem;
+  background-color: rgb(220, 210, 195)
 
 }
 
